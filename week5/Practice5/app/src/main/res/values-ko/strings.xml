@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">실습5</string>
+    <string name="title">제목</string>
+    <string name="name">이름</string>
+    <string name="ok">확인</string>
+    <string name="number">숫자</string>
+    <string name="textview">텍스트뷰</string>
+    <string name="button">버튼</string>
+</resources>

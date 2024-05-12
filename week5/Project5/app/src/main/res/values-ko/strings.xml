@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Project5</string>
+    <string name="hello">안녕</string>
+    <string name="update">변경</string>
+    <string name="editText">수정</string>
+</resources>
