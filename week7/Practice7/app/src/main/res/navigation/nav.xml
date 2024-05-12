@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav"
+    app:startDestination="@id/frag1Fragment">
+
+    <fragment
+        android:id="@+id/frag1Fragment"
+        android:name="com.example.practice7.Frag1Fragment"
+        android:label="Frag1Fragment" >
+        <action
+            android:id="@+id/action_frag1Fragment_to_frag2Fragment"
+            app:destination="@id/frag2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/frag2Fragment"
+        android:name="com.example.practice7.Frag2Fragment"
+        android:label="Frag2Fragment" >
+        <action
+            android:id="@+id/action_frag2Fragment_to_frag1Fragment"
+            app:destination="@id/frag1Fragment"
+            app:popUpTo="@id/frag1Fragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
