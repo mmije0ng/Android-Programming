@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.practice9.Home"
+        android:label="Home" >
+        <action
+            android:id="@+id/action_home2_to_myDialogFragment"
+            app:destination="@id/myDialogFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/frag1"
+        android:name="com.example.practice9.Frag1"
+        android:label="Frag1" />
+    <fragment
+        android:id="@+id/frag2"
+        android:name="com.example.practice9.Frag2"
+        android:label="Frag2" />
+    <dialog
+        android:id="@+id/myDialogFragment"
+        android:name="com.example.practice9.MyDialogFragment"
+        android:label="MyDialogFragment" />
+</navigation>
